@@ -1,0 +1,46 @@
+.TransferList {
+  display: flex;
+  border: black solid 1px;
+  width: 920px;
+  margin: 10px;
+}
+
+.Column1 {
+  border-right: 1px solid black;
+}
+
+.Column2 {
+  border-left: 1px solid black;
+}
+
+.Item {
+  display: flex;
+  padding: 5px 0;
+  width: fit-content;
+  cursor: pointer;
+  input{
+    cursor: pointer;
+  }
+}
+
+.ColumnContainer {
+  padding: 20px;
+}
+
+.Column {
+  min-width: 400px;
+}
+
+.ColumnControls {
+  min-width: 80px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  height: 122px;
+}
+
+.ButtonControl {
+  width: 40px;
+}
